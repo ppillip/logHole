@@ -158,7 +158,7 @@ var ___logHole = {
         }
 
         try{
-            var s = "http://loghole.parkseunghyun.com:3000/api/ange/uri/" + Base64.encode(w.document.location.href) ;
+            var s = "https://loghole.parkseunghyun.com:3000/api/ange/uri/" + Base64.encode(w.document.location.href) ;
             hr.open('GET',s);
             hr.send();
         }catch(e){
